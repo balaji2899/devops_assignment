@@ -34,7 +34,7 @@ def open_cam():
       # Our operations on the frame come here
       im = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
           
-      decodedObjects = decode(im)
+      #decodedObjects = decode(im)
 
       for decodedObject in decodedObjects: 
           points = decodedObject.polygon
